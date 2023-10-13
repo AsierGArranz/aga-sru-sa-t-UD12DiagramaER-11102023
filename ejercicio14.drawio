@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T16:11:51.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="C3XQj1NG0plfZKVl5osp" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T16:11:58.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mpUlN-OtGH0cruohPJz4" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1290" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -9,12 +9,6 @@
         </mxCell>
         <mxCell id="4j3YTI05tPYxbYp34O56-2" value="+id_usuario: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+nombre&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+apellidos&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+contrasena&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+direccion&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+telefono&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+email&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+foto&lt;br&gt;+celebridad (boolean)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="4j3YTI05tPYxbYp34O56-1">
           <mxGeometry y="50" width="160" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="4j3YTI05tPYxbYp34O56-3" value="Grupo Contactos" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="340" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="4j3YTI05tPYxbYp34O56-4" value="+id_grupo_contactos: int&lt;br&gt;+nombre" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="4j3YTI05tPYxbYp34O56-3">
-          <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4j3YTI05tPYxbYp34O56-5" value="telefono" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="20" y="168" width="100" height="40" as="geometry" />
