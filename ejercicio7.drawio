@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T17:32:07.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oel0VmkOacChQ2OgTXSA" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T15:35:49.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="ruFiCoGIVGveKOnTyB9V" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2020" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,6 +104,9 @@
         </mxCell>
         <mxCell id="bF3afOXUOnpy5TdLRnv6-10" value="+categoria_profesional" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="360" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TISmKAS8AJLWzIlnoxrg-1" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Trabajador: &lt;u style=&quot;font-weight: bold;&quot;&gt;codigo_trabajador: int,&lt;/u&gt;&amp;nbsp;dni, seguridad_social, nombre, apellidos, direccion, telefono, &lt;u&gt;codigo_trabajador_responsable&lt;/u&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Departamento &lt;u style=&quot;font-weight: bold;&quot;&gt;codigo_departamento: int,&lt;/u&gt;&amp;nbsp;nombre_departamento, &lt;u&gt;codigo_trabajador&lt;/u&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Contrato: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_contrato: int,&lt;/u&gt;&amp;nbsp;fecha_inicio, fecha_final, categoria_profesional, &lt;u&gt;codigo_trabajador: int&lt;/u&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Nomina: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_nomina: int,&lt;/u&gt;&amp;nbsp;fecha, salario, categoria_profesional, &lt;u&gt;id_contrato: int&lt;/u&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="810" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
