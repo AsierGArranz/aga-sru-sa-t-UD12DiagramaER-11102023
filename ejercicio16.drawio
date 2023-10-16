@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:13:32.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="D3iMnLgw6aPuX4E9zZjW" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T17:14:58.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="B0ID9cDUL7osAHw1nv6d" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -46,19 +46,19 @@
         <mxCell id="c2l-juozBmbRAY5QKWU4-13" value="Contener" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="430" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="c2l-juozBmbRAY5QKWU4-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c2l-juozBmbRAY5QKWU4-4" target="c2l-juozBmbRAY5QKWU4-13" edge="1">
+        <mxCell id="c2l-juozBmbRAY5QKWU4-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="c2l-juozBmbRAY5QKWU4-13" target="c2l-juozBmbRAY5QKWU4-4" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="360" y="220" as="sourcePoint" />
-            <mxPoint x="250" y="225" as="targetPoint" />
+            <mxPoint x="570" y="160" as="sourcePoint" />
+            <mxPoint x="570" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c2l-juozBmbRAY5QKWU4-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="c2l-juozBmbRAY5QKWU4-5" target="c2l-juozBmbRAY5QKWU4-13" edge="1">
+        <mxCell id="c2l-juozBmbRAY5QKWU4-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c2l-juozBmbRAY5QKWU4-13" target="c2l-juozBmbRAY5QKWU4-5" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="395" y="210" as="sourcePoint" />
-            <mxPoint x="395" y="260" as="targetPoint" />
+            <mxPoint x="570" y="300" as="sourcePoint" />
+            <mxPoint x="570" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cZYLlvoT-R4SSOj16f-d-1" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li&gt;Usuario: &lt;u style=&quot;font-weight: bold;&quot;&gt;id: int&lt;/u&gt;, datos:String, nombre_usuario: String, email, String, contraseña: String&lt;/li&gt;&lt;li&gt;Seguir:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_1: int&lt;/u&gt;,&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_2: int&lt;/u&gt;&lt;/li&gt;&lt;li&gt;Value 3&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="cZYLlvoT-R4SSOj16f-d-1" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li&gt;Usuario: &lt;u style=&quot;font-weight: bold;&quot;&gt;id: int&lt;/u&gt;, datos:String, nombre_usuario: String, email, String, contraseña: String&lt;/li&gt;&lt;li&gt;Seguir:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_1: int&lt;/u&gt;,&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_2: int&lt;/u&gt;&lt;/li&gt;&lt;li&gt;Mensajes:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_mensaje: int&lt;/u&gt;, texto:String, &lt;u&gt;id_usuario: int&lt;/u&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="100" y="400" width="770" height="170" as="geometry" />
         </mxCell>
       </root>
