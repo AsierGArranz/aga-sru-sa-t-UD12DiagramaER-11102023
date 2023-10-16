@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T16:26:16.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Y9jv3-wvFpj8-l68xdv2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T16:26:21.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="y8kg36RQLeuKYVEpnvou" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="irq9IvZbZGLmAHvIB_We-1" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li&gt;Accidentes: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_nombre: int&lt;/u&gt;, posicion_horizontal: String, posicion_vertical: String&lt;/li&gt;&lt;li&gt;Lagos: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_nombre: int&lt;/u&gt;, superficie: double&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Montañas:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_nombre: int&lt;/u&gt;, altura: double&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Rios:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_nombre: int&lt;/u&gt;, longitud: double&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Paises: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_pais: String&lt;/u&gt;, nombre&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Estar: &lt;b&gt;&lt;u&gt;id_nombre: int, id_pais: int&lt;/u&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Localidades: &lt;u style=&quot;font-weight: bold;&quot;&gt;nombre: String&lt;/u&gt;, &lt;u&gt;id_pais: String&lt;/u&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Pasar:&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;u style=&quot;font-weight: bold; border-color: var(--border-color);&quot;&gt;id_nombre: int, nombre: String&lt;/u&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;, km: double&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="160" y="550" width="660" height="190" as="geometry" />
+          <mxGeometry x="130" y="550" width="660" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
