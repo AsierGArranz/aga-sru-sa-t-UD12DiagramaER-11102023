@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T14:54:12.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="kYHxwcOPsVBN-jC-dC4H" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T16:00:10.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="n7_xcXcqCahzhz8-F5e8" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2020" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1500" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,16 +34,19 @@
         <mxCell id="d5QlED9QIj9ZwtFVv4aS-22" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+id_prestamo: int&lt;br&gt;&lt;/font&gt;&lt;/b&gt;+fecha_inicio&lt;br&gt;+fecha_fin&lt;br&gt;+fecha_devolucion" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="d5QlED9QIj9ZwtFVv4aS-21" vertex="1">
           <mxGeometry y="50" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d5QlED9QIj9ZwtFVv4aS-25" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="d5QlED9QIj9ZwtFVv4aS-2" target="d5QlED9QIj9ZwtFVv4aS-13" edge="1">
+        <mxCell id="d5QlED9QIj9ZwtFVv4aS-25" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="d5QlED9QIj9ZwtFVv4aS-13" target="d5QlED9QIj9ZwtFVv4aS-22" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="415" y="474" as="sourcePoint" />
-            <mxPoint x="515" y="374" as="targetPoint" />
+            <mxPoint x="540.0000000000002" y="550" as="sourcePoint" />
+            <mxPoint x="585.0000000000002" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="616" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d5QlED9QIj9ZwtFVv4aS-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="d5QlED9QIj9ZwtFVv4aS-22" target="d5QlED9QIj9ZwtFVv4aS-13" edge="1">
+        <mxCell id="d5QlED9QIj9ZwtFVv4aS-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;endFill=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="d5QlED9QIj9ZwtFVv4aS-13" target="d5QlED9QIj9ZwtFVv4aS-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="665" y="470" as="sourcePoint" />
-            <mxPoint x="615" y="604" as="targetPoint" />
+            <mxPoint x="520" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d5QlED9QIj9ZwtFVv4aS-29" value="" style="shape=link;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="d5QlED9QIj9ZwtFVv4aS-33" target="d5QlED9QIj9ZwtFVv4aS-12" edge="1">
@@ -52,7 +55,7 @@
             <mxPoint x="465" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d5QlED9QIj9ZwtFVv4aS-32" value="Autor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="d5QlED9QIj9ZwtFVv4aS-32" value="Autor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=1;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="37" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="d5QlED9QIj9ZwtFVv4aS-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;+id_autor: int&lt;br&gt;&lt;/b&gt;&lt;/font&gt;+nombre&lt;br&gt;+pais" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="d5QlED9QIj9ZwtFVv4aS-32" vertex="1">
@@ -79,7 +82,7 @@
             <mxPoint x="460" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d5QlED9QIj9ZwtFVv4aS-44" value="num_painas" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
+        <mxCell id="d5QlED9QIj9ZwtFVv4aS-44" value="num_paginas" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
           <mxGeometry x="134" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d5QlED9QIj9ZwtFVv4aS-45" value="num_canciones" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
@@ -157,6 +160,9 @@
               <mxPoint x="646.5" y="380" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4lXT6gFdv_cs0kAfa1E-1" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Articulo: &lt;/span&gt;&lt;u style=&quot;background-color: initial; font-weight: bold;&quot;&gt;id_articulo: int&lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, nombre: String, ano: int, pais: String, resumen: String&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Autor:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_autor: int&lt;/u&gt;, nombre: String, pais: String,&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;id_articulo: int&lt;/u&gt;&lt;/li&gt;&lt;li&gt;Libro: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_articulo&lt;/u&gt;, num_paginas: int&lt;/li&gt;&lt;li&gt;CD:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_articulo&lt;/u&gt;, num_canciones: int&lt;/li&gt;&lt;li&gt;Pelicula:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_articulo&lt;/u&gt;, duracion: int&lt;/li&gt;&lt;li&gt;Copia:&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;id_articulo&lt;/u&gt;, cod_articulo: int&lt;/li&gt;&lt;li&gt;Prestamos: &lt;u style=&quot;font-weight: bold;&quot;&gt;id_prestamos:int,&lt;/u&gt;&amp;nbsp;fecha_inicio: int, fecha_fin: int, fecha_dev: int, &lt;u&gt;id_articulo&lt;/u&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="95" y="650" width="705" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
