@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T14:49:41.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 OPR/103.0.0.0" etag="ALz1e7mU3EnSSxEpaVcI" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T14:53:00.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 OPR/103.0.0.0" etag="78wszuT1WeMwl8iPFV_K" version="22.0.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2020" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -268,6 +268,9 @@
             <mxPoint x="670" y="230" as="sourcePoint" />
             <mxPoint x="590" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NcZvS1h-Kk1u9-RRjZAI-64" value="&lt;ul&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Persona: &lt;u style=&quot;font-weight: bold;&quot;&gt;dni: varchar,&lt;/u&gt;&amp;nbsp;nombre, apellido, telefono_fijo, telefono_movil&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Trabajador: &lt;u style=&quot;font-weight: bold;&quot;&gt;codigo_personal varchar,&lt;/u&gt;&amp;nbsp;&lt;u&gt;dni&lt;/u&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Cliente:&lt;/font&gt;&lt;u style=&quot;border-color: var(--border-color); font-size: medium; font-weight: bold;&quot;&gt;codigo_personal varchar,&lt;/u&gt;&amp;nbsp;&lt;u style=&quot;border-color: var(--border-color); font-size: medium;&quot;&gt;dni&lt;/u&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Inmueble:&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Piso:&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Garaje:&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Local:&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Propiedad:&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Adquirir:&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Alquiler:&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;Pago_Alquiler:&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="380" y="860" width="620" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
